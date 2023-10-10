@@ -1,11 +1,9 @@
-
 import { useState } from 'react'
 import Form from 'react-bootstrap/Form'
 import Alert from './Alert'
 
-
 function Formulario () {
-
+  
 const [nombre, setNombre] = useState('');
 const [mail, setMail] = useState('');
 const [password, setPassword] = useState('');
@@ -73,7 +71,5 @@ return (
 
   </>
 );
-
 }
-
 export default Formulario;
